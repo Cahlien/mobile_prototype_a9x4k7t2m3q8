@@ -15,7 +15,7 @@ Window {
 
     Text {
         anchors.centerIn: parent
-        text: qsTr(projectName)
+        text: qsTr(projectName + ' on ' + Qt.platform.os)
         color: '#c3c3c3'
     }
 }
